@@ -7,12 +7,12 @@
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0A0F12",
+    "light": "#161B1E",
+    "dark": "#0A0F12",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#0A0F12",
+      "to": "#161B1E"
     }
   },
   "topbarLinks": [
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Endpoints",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
