@@ -35,7 +35,18 @@
     {
       "group": "Endpoints",
       "pages": [
-        "api-reference/endpoint/get"
+        {
+          "group": "User",
+          "pages": [
+            "api-reference/endpoint/user/get"
+          ]
+        },
+        {
+          "group": "Rent",
+          "pages": [
+            "api-reference/endpoint/rent/get"
+          ]
+        }
       ]
     }
   ],

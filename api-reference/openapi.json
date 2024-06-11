@@ -54,6 +54,35 @@
                     }
                 }
             }
+        },
+        "/rent/countries": {
+            "get": {
+                "summary": "",
+                "description": "Retrieves a list of countries where SMS numbers are available for rent",
+                "parameters": [],
+                "operationId": "",
+                "responses": {
+                    "200": {
+                        "description": "Default response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "countries": {
+                                            "description": "An array of country names where SMS numbers can be rented",
+                                            "type": "array",
+                                            "items": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "components": {
@@ -67,7 +96,7 @@
                     },
                     "balance": {
                         "description": "A numeric value representing the current balance of the user in USD",
-                        "type": "int"
+                        "type": "integer"
                     }
                 }
             },
